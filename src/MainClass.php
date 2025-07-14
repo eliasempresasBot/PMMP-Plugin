@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ExamplePlugin;
+namespace ELIASEMPRESAS;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
