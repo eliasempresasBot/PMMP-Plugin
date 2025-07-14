@@ -21,7 +21,7 @@
 
 declare(strict_types=1);
 
-namespace ExamplePlugin;
+namespace ELIASEMPRESAS;
 
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerChatEvent;
