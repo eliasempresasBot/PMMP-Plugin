@@ -1,20 +1,27 @@
 #name, main, version and api are required
-name: ExamplePlugin
-main: ExamplePlugin\MainClass
-src-namespace-prefix: ExamplePlugin
+name: ELIASEMPRESAS
+main: ELIASEMPRESAS\MainClass
+src-namespace-prefix: ELIASEMPRESAS
 version: 1.4.1+dev
 api: 5.0.0
 
 load: POSTWORLD
-author: PocketMine Team
-description: Example plugin showing the new API
-website: https://github.com/pmmp/ExamplePlugin
+author: ELIAS EMPRESAS
+description: Olá aqui é as Elias Empresas 
+website: https://www.eliasempresas.com
 commands:
-  example:
-    description: Example command
-    usage: "/example"
-    permission: exampleplugin.command.example
+  principal:
+    description: Comando principal 
+    usage: "/eliasempresas"
+    permission: eliasempresas.command.principal
+  curta:
+    description: Comando principal forma curta
+    usage: "/ee"
+    permission: eliasempresas.command.curta
 permissions:
-  exampleplugin.command.example:
-    description: "Allows the user to run the example command"
+  eliasempresas.command.principal:
+    description: "Permite que o usuário execute o comando de principal"
+    default: true
+  eliasempresas.command.curto:
+    description: "Permite que o usuário execute o comando de curto"
     default: true
